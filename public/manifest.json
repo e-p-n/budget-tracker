@@ -48,5 +48,5 @@
   "start_url": "index.html",
   "description": "An app for tracking income and expenses.",
   "background_color": "#6665fe",
-  "theme_color": "#ffffff"
+  "theme_color": "#fff"
 }

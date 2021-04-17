@@ -54,6 +54,8 @@ function uploadBudgetItem() {
                 budgetObjectStore.clear();
 
                 alert('Alert budget item has been submitted!');
+                location.reload();
+
             })
             .catch(err => {
                 console.log(err);
