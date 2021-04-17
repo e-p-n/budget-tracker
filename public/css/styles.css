@@ -49,3 +49,11 @@ tr:nth-child(even) {
   width: 90%;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  input, button {
+    width: 90%;
+    clear: both;
+    margin: 5px 0;
+  }
+
+}
