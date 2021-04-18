@@ -26,7 +26,7 @@ To try the app without installing a local copy, you can try it out on [Heroku](h
 5. If you lose connectivity while using the app, you can continue to add transactions. They will be stored locally in the browswer's IndexedDB databse and then added to the online app when you reestablish an internet connection. 
 6. If you start the app without an internet connection, you will not be able to see your transaction history, but you can still load the app fro the cache becasue of the service worker and add new transactions. When you have reestablished an internet connection, your transactions will be added to the online database and the page will reload to include the entire transaction history.
 7. The app can be used as a PWA.
-    * In Google Chrome for desktop, click the install icon ( ![pwa-icon](./public/icons/google-pwa.png) ). The PWA will install and aunch automatically
+    * In Google Chrome for desktop, click the install icon ( ![pwa-icon](./public/icons/google-pwa.png) ). The PWA will install and launch automatically
     * To install on an iOS device, after loading the page in Safari, press the share icon ( ![share-icon](./public/icons/ios-share-icon.png) ) and then select the "Add to Home Screen" button.
     * To install on an android device, load the page in chrome and then press the kebab menu icon ( ![kebab-icon](./public/icons/kebab-icon.png) ) and select "Add to Home Screen".
 
