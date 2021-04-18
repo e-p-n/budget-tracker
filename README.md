@@ -17,8 +17,9 @@ In order to install and use this application locally, you will need to have [Mon
 4. Run "npm start" to launch the server.
 
 ## Usage
-To try the app without installing a local copy, you can try it out on [Heroku](https://damp-gorge-12002.herokuapp.com/).
 
+To try the app without installing a local copy, you can try it out on [Heroku](https://damp-gorge-12002.herokuapp.com/).
+[![screenshot](./public/images/screenshot.png)](https://damp-gorge-12002.herokuapp.com/)
 1. Enter a transaction name in the first text box and the amount in the second.
 2. Press either "+ Add Funds" if the transaction is a source if income or "- Subtract Funds" if it is an expense.
 3. The tracker will add the transaction to a list of transactions and will update the graph.
